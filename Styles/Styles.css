@@ -49,10 +49,10 @@ nav li a {
     text-align: left;
 }
 
-.header-bg{
+.header-bg {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position:50px 40px, right bottom;
+    background-position: 50px 38px, right bottom;
 }
 
 /* Buttons */
@@ -72,48 +72,79 @@ nav li a {
     border-radius: 5px;
 }
 
+.button:hover {
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+}
+
 nav li button {
     padding: 18px 35px 19px 36px;
     margin-right: 179px;
 }
 
-.banner #btn {
-    color: rgba(253, 110, 10, 1);
-    font-family: Open Sans;
-    font-size: 20px;
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 19px 17px 18px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: left;
-    border: none;
-    cursor: pointer;
-    border: 1px solid rgba(253, 110, 10, 1);
-    background: rgba(255, 255, 255, 1);
+    font-size: 20px;
     border-radius: 5px;
+    cursor: pointer;
+    line-height: 1;
+    margin-right: 30px;
 }
-.banner .btn-container{
-    display: inline;
+
+.btn-orange {
+    background-color: rgba(253, 110, 10, 1);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(253, 110, 10, 1);
 }
+
+.btn-outline-orange {
+    background-color: transparent;
+    color: rgba(253, 110, 10, 1);
+    border: 2px solid rgba(253, 110, 10, 1);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+}
+
+/* .btn-outline-orange:active {
+    background-color:  rgba(253, 110, 10, 1);
+    color: white;             
+}
+.btn-outline-orange:active img{
+     content:  url("../images/icons/phone-white.png");
+     width: 24px;
+     height: 24px;
+} */
 
 /* Banner */
 
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
 }
 
 
-.banner .banner-content{
-    max-width: 585px ;
+.banner .banner-content {
+    max-width: 585px;
     margin-left: 230px;
-    margin-bottom: 184px;
-    
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
 }
 
 
 .banner h3 {
-    color: rgba(71, 71, 71, 1);
+    color: rgb(71, 71, 71, 1);
 
     font-family: Open Sans;
     font-size: 45px;
@@ -121,30 +152,36 @@ nav li button {
     line-height: 100%;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: -50px;
 }
-.banner h1{
+
+.banner h1 {
     color: rgba(24, 24, 24, 1);
 
-font-family: Open Sans;
-font-size: 85px;
-font-weight: 700;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
 
 }
-.banner p{
+
+.banner p {
     color: rgba(117, 117, 117, 1);
 
-font-family: Open Sans;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
 }
-.banner #dp{
-    width: 580px ;
+
+.banner #dp {
+    width: 580px;
     margin-right: 38px;
     margin-top: 47px;
 }
