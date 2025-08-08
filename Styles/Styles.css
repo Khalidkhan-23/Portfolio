@@ -113,7 +113,7 @@ nav li button {
     transition: 0.2s ease;
 }
 
-/* .btn-outline-orange:active {
+.btn-outline-orange:active {
     background-color:  rgba(253, 110, 10, 1);
     color: white;             
 }
@@ -121,7 +121,7 @@ nav li button {
      content:  url("../images/icons/phone-white.png");
      width: 24px;
      height: 24px;
-} */
+}
 
 /* Banner */
 
