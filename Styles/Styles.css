@@ -320,16 +320,17 @@ nav li button {
 /* My resume */
 
 
-.Resume .section-head{
+.Resume .section-head {
     margin-bottom: 113px;
 }
-.ex-container{
+
+.ex-container {
     display: flex;
     justify-content: center;
     gap: 71px;
 }
 
-.Resume .down-butt{
+.Resume .down-butt {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -345,40 +346,145 @@ nav li button {
     line-height: 100%;
     letter-spacing: 0%;
     text-align: left;
-    
+
 
 }
-.ex-container .ex-head{
+
+.ex-container .ex-head {
     color: rgba(71, 71, 71, 1);
 
-font-family: Open Sans;
-font-size: 25px;
-font-weight: bold;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: left;
-margin-top: 35px;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 35px;
 
 }
-.ex-container .ex-sub{
+
+.ex-container .ex-sub {
     color: rgba(117, 117, 117, 1);
 
-font-family: Open Sans;
-font-size: 20px;
-font-weight: 600;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: left;
-margin-top: -18px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -18px;
 }
-.ex-container .ex-description{
+
+.ex-container .ex-description {
     color: rgba(117, 117, 117, 1);
 
-font-family: Open Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: left;
-margin-top: -5px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -5px;
+}
+
+
+/* Footer */
+
+.footer-bg {
+    background: rgba(255, 248, 243, 1);
+    padding: 130px 230px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 113px;
+}
+
+.footer-bg .section-head {
+    text-align: left;
+}
+
+.footer-bg p {
+    color: rgba(71, 71, 71, 1);
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.footer-bg .icon-link {
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.footer-bg input[type="text"],
+.footer-bg input[type="email"] {
+    border-radius: 5px;
+
+    background: rgba(255, 255, 255, 1);
+    color: rgba(117, 117, 117, 1);
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin-bottom: 24px;
+    outline: none;
+    box-shadow: none;
+    border: 0px solid;
+    padding: 18px 270px 18px 30px;
+}
+
+.footer-bg textarea {
+    color: rgba(117, 117, 117, 1);
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+
+    background: rgba(255, 255, 255, 1);
+
+    outline: none;
+    box-shadow: none;
+    border: 0px solid;
+    resize: none;
+    margin-bottom: 24px;
+    padding: 18px 0px 18px 30px;
+}
+
+
+.footer-bg a img:hover {
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+}
+
+form .btn-orange {
+    padding: 18px 39px 19px 39px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+form .btn-orange:hover {
+    transform: translateY(-2px);
+    transition: 0.2s ease;
 }
